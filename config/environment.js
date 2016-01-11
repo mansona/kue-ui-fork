@@ -44,9 +44,9 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // for search and replace in dist/index.html
-    ENV.apiURL = 'API_URL';
-    ENV.baseURL = 'BASE_URL';
-    ENV.updateInterval = 'UPDATE_INTERVAL';
+    ENV.apiURL = 'api';
+    ENV.baseURL = '/';
+    ENV.updateInterval = 1000;
   }
 
   return ENV;
