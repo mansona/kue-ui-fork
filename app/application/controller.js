@@ -12,7 +12,7 @@ export default Ember.Controller.extend({
         self.updateStats(); // first call
 
         if (!isNaN(ENV.updateInterval)) {
-            setInterval(() => self.updateStats(), ENV.updateInterval); // every Xs
+          setInterval(() => self.updateStats(), ENV.updateInterval); // every Xs
         }
     }),
 
