@@ -46,7 +46,7 @@ module.exports = function(environment) {
     // for search and replace in dist/index.html
     ENV.apiURL = 'api';
     ENV.baseURL = '/';
-    ENV.updateInterval = 5000;
+    ENV.updateInterval = 30000;
   }
 
   return ENV;
